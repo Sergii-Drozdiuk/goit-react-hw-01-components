@@ -1,0 +1,33 @@
+.card {
+  @apply flex flex-col items-center mt-5 mx-auto border rounded-lg w-80 bg-white;
+}
+
+.avatarImg {
+  @apply w-48 h-48 mx-auto mt-4 mb-4 border rounded-full;
+}
+
+.name {
+  @apply font-bold text-2xl mb-3;
+}
+
+.tagText,
+.loc {
+  @apply font-light mb-3;
+}
+
+.stats {
+  @apply flex flex-wrap items-center place-content-evenly rounded-b-lg bg-slate-200;
+}
+
+.wrapper {
+  @apply flex flex-col place-content-evenly h-24;
+  width: 106px;
+}
+
+.label {
+  @apply mx-auto font-light text-base;
+}
+
+.quantity {
+  @apply mx-auto;
+}
