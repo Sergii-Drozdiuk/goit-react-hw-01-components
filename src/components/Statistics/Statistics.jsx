@@ -5,7 +5,7 @@ export const Statistics = ({title, data, backgroundColor}) => (
     {title && <h2 className={styles.title}>{title}</h2>}
     <ul className={styles['stat-list']}>
     {data.map(({ id, label, percentage }) => (
-      <li className={styles.item} key={id} backgroundcolor={backgroundColor()}>
+      <li className={styles.item} key={id}>
         <span className={styles.label}>{label}</span>
         <span className={styles.percentage}>{percentage}%</span>
       </li>
@@ -13,9 +13,3 @@ export const Statistics = ({title, data, backgroundColor}) => (
   </ul>
   </section>
 );
-
-export const getRandomHexColor = () => {
-	return `#${Math.floor(Math.random() * 16777215)
-		.toString(16)
-    .padStart(6, 0)}`;
-};
