@@ -20,7 +20,7 @@
 }
 
 .item {
-  @apply flex flex-col place-content-evenly border first:rounded-bl-lg last:rounded-br-lg w-1/3 h-24;
+  @apply flex flex-col place-content-evenly first:rounded-bl-lg last:rounded-br-lg w-1/3 h-24;
 }
 
 .label {

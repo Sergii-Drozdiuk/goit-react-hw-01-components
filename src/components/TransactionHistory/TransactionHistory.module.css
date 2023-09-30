@@ -1,0 +1,15 @@
+.table {
+  @apply mx-auto mt-6 w-96 bg-white border;
+}
+
+.head {
+  @apply bg-teal-300 text-white border;
+}
+
+.body {
+  @apply font-extralight text-sm;
+}
+
+.column {
+  @apply w-1/3 border text-center;
+}
