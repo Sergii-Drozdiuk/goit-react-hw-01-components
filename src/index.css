@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+  user-select: none;
   color: rgba(5, 5, 5, 1);
   font-family: Inter, sans-serif;
   font-size: 18px;

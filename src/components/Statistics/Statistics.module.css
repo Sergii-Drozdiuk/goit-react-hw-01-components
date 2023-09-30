@@ -1,0 +1,22 @@
+.statistics {
+  @apply mx-auto mt-6 w-96 bg-white border rounded-lg;
+}
+
+.title {
+  @apply flex items-center justify-center w-full h-20 font-bold text-2xl;
+}
+
+.stat-list {
+  @apply flex place-content-evenly h-24 rounded-b-lg;
+}
+
+.item {
+  @apply flex flex-col justify-center w-20 h-24 border first:rounded-bl-lg last:rounded-br-lg;
+}
+
+.label {
+  @apply text-center;
+}
+.percentage {
+  @apply font-bold text-2xl text-center;
+}
