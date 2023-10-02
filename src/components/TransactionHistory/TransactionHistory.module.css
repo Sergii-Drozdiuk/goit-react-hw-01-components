@@ -7,7 +7,7 @@
 }
 
 .body {
-  @apply font-extralight text-sm;
+  @apply font-extralight text-sm even:bg-gray-200;
 }
 
 .column {
